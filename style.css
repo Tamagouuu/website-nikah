@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+@font-face {
+  font-family: "Signatie";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Signatie"), url("assets/font/signatie/Signatie.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Afterglow Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Afterglow Regular"), url("assets/font/afterglow/Afterglow-Regular.woff") format("woff");
+}
+
+:root {
+  --primary-gold: #ffcc5f;
+}
+
+body {
+  font-family: "Quicksand", sans-serif !important;
+}
+
+#jumbotron .container-fluid {
+  height: 100vh;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.436) 0%, rgb(0, 0, 0) 100%), url(assets/img/mockup-asset-jumbo.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.text-header {
+  width: 500px;
+  text-align: center;
+}
+
+.header-decoration-center {
+  position: absolute;
+  bottom: calc(-350px / 2);
+  transform: translate(-50%);
+  left: 50%;
+  width: 350px;
+}
+
+.header-decoration-left {
+  position: absolute;
+  animation: rotation-mandala 20s infinite linear;
+}
+.header-decoration-right {
+  position: absolute;
+  animation: rotation-mandala 20s infinite reverse linear;
+}
+
+#pengantin {
+  background: radial-gradient(116.09% 189.76% at 50.01% 50.02%, #161621 0%, #000000 69.58%);
+}
+
+.first-divider {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 30px;
+}
+
+#pengantin .container {
+  padding-top: 45px;
+}
+
+.heading-title h3 {
+  font-family: Afterglow regular;
+  color: var(--primary-gold);
+  font-size: 2rem;
+  margin-top: -4px;
+}
+
+.heading-title img {
+  width: 200px;
+}
+
+.wrapper-foto {
+  display: inline-block;
+}
+
+/* .wrapper-foto::before {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 100px;
+  height: 100px;
+  background-color: #ffcc5f;
+ 
+} */
+
+.pengantin-wrapper {
+  z-index: 0;
+}
+
+.foto-pengantin {
+  width: 250px;
+}
+
+.bg-pengantin {
+  z-index: -1;
+  position: absolute;
+  width: 300px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.nama-pengantin {
+  position: relative;
+  margin-top: -35px;
+  color: var(--primary-gold);
+}
+
+.nama-pengantin h2 {
+  font-family: Signatie;
+  font-size: 2.5rem;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.6);
+}
+
+.nama-pengantin h3 {
+  font-family: Afterglow Regular;
+  font-size: 1.8rem;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.6);
+}
+
+.deskripsi-box {
+  max-width: 180px;
+  color: white;
+}
+
+@keyframes rotation-mandala {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (min-width: 890px) {
+  .header-decoration-center {
+    bottom: calc(-350px / 2);
+    transform: translate(-50%);
+    left: 50%;
+    width: 350px;
+  }
+
+  .header-decoration-left {
+    left: calc(-300px / 2);
+    bottom: calc(-350px / 2);
+    width: 400px;
+  }
+  .header-decoration-right {
+    right: calc(-300px / 2);
+    bottom: calc(-350px / 2);
+    width: 400px;
+  }
+}
+
+@media (min-width: 650px) {
+  .header-decoration-center {
+    bottom: calc(-350px / 2);
+    transform: translate(-50%);
+    left: 50%;
+    width: 350px;
+  }
+
+  .header-decoration-left {
+    left: calc(-300px / 2);
+    bottom: calc(-350px / 2);
+    width: 350px;
+  }
+  .header-decoration-right {
+    right: calc(-300px / 2);
+    bottom: calc(-350px / 2);
+    width: 350px;
+  }
+}
+
+@media (max-width: 650px) {
+  .header-decoration-center {
+    bottom: calc(-350px / 2);
+    transform: translate(-50%);
+    left: 50%;
+    width: 350px;
+  }
+
+  .header-decoration-left {
+    left: calc(-300px / 2);
+    top: calc(-350px / 2);
+    width: 350px;
+  }
+  .header-decoration-right {
+    right: calc(-300px / 2);
+    top: calc(-350px / 2);
+    width: 350px;
+  }
+}
+
+@media (max-width: 419px) {
+  .header-decoration-center {
+    bottom: calc(-350px / 2);
+    transform: translate(-50%);
+    left: 50%;
+    width: 350px;
+  }
+
+  .header-decoration-left {
+    left: calc(-300px / 2);
+    top: calc(-300px / 2);
+    width: 300px;
+  }
+  .header-decoration-right {
+    right: calc(-300px / 2);
+    top: calc(-300px / 2);
+    width: 300px;
+  }
+}
