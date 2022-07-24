@@ -41,7 +41,7 @@ body {
 
 #openner {
   height: 100vh;
-  position: absolute;
+  position: fixed;
   background: linear-gradient(
       180deg,
       rgba(0, 0, 0, 0.436) 0%,
