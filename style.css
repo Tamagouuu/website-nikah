@@ -20,6 +20,10 @@
   --primary-gold: #ffcc5f;
 }
 
+html {
+overflow-x: hidden;
+}
+
 body {
   font-family: "Quicksand", sans-serif !important;
   overflow-x: hidden;
