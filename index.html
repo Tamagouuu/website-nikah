@@ -5,104 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DODIK & TRISNA</title>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"
-    />
     <link rel="stylesheet" href="style.css" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
-      crossorigin="anonymous"
-    />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
   </head>
-  <body class="overflow-hidden">
-    <section
-      id="openner"
-      class="d-flex justify-content-center align-items-center"
-      data-aos="fade-down"
-    >
-      <div class="container text-center">
-        <div class="text-group-top">
-          <h4 class="top-heading-openner">THE WEDDING OF</h4>
-          <h1 class="heading-openner">Dodik & Trisna</h1>
-        </div>
-        <div class="text-group-bottom text-center mx-auto mt-4">
-          <p>Kepada Bapak/Ibu/Saudara/i</p>
-          <h2 class="fw-bolder text-capitalize" id="receiver"></h2>
-          <p>
-            Tanpa mengurangi rasa hormat, kami mengundang anda untuk hadir pada
-            acara pernikahan kami.
-          </p>
-          <button
-            class="btn btn-primary d-flex mx-auto fw-bold mt-5"
-            id="open-message"
-          >
-            <i data-feather="mail" class="me-2"></i>Buka Undangan
-          </button>
-        </div>
-      </div>
-    </section>
+  <body>
     <section id="jumbotron">
-      <div
-        class="container-fluid d-flex justify-content-center align-items-center flex-column position-relative"
-      >
+      <div class="container-fluid d-flex justify-content-center align-items-center flex-column position-relative">
         <div class="row justify-content-center align-items-center">
           <div class="col-12">
-            <img
-              src="assets/img/jumbotron-text.png"
-              alt=""
-              class="text-header img-fluid"
-              data-aos="zoom-in"
-            />
+            <img src="assets/img/jumbotron-text.png" alt="" class="text-header img-fluid" />
           </div>
         </div>
-        <img
-          src="assets/img/mandala-jumbo-center.svg"
-          alt=""
-          class="header-decoration-center img-fluid"
-        />
-        <img
-          src="assets/img/mandala-jumbo-1.png"
-          alt=""
-          class="header-decoration-left img-fluid"
-        />
-        <img
-          src="assets/img/mandala-jumbo-1.png"
-          alt=""
-          class="header-decoration-right img-fluid"
-        />
+        <img src="assets/img/mandala-jumbo-center.svg" alt="" class="header-decoration-center img-fluid" />
+        <img src="assets/img/mandala-jumbo-1.png" alt="" class="header-decoration-left img-fluid" />
+        <img src="assets/img/mandala-jumbo-1.png" alt="" class="header-decoration-right img-fluid" />
       </div>
     </section>
     <section id="pengantin" class="position-relative">
       <img src="assets/img/divider-1.png" class="first-divider" />
       <div class="container">
-        <div class="heading-title text-center" data-aos="fade-up">
+        <div class="heading-title text-center">
           <img src="assets/img/decoration-top.svg" class="img-fluid" />
           <h3>Om Swastyastu</h3>
         </div>
-        <div class="row justify-content-center" data-aos="fade-up">
-          <div class="col-md-8 col-11">
-            <p class="text-white text-center">
-              Atas Asung Kertha Wara Nugraha Ida Sang Hyang Widhi Wasa/Tuhan
-              Yang Maha Esa kami bermaksud mengundang Bapak/Ibu/Saudara/i pada
-              Upacara Manusa Yadnya Pawiwahan (Pernikahan) kami.
-            </p>
+        <div class="row justify-content-center">
+          <div class="col-8">
+            <p class="text-white text-center">Atas Asung Kertha Wara Nugraha Ida Sang Hyang Widhi Wasa/Tuhan Yang Maha Esa kami bermaksud mengundang Bapak/Ibu/Saudara/i pada Upacara Manusa Yadnya Pawiwahan (Pernikahan) kami.</p>
           </div>
         </div>
-        <div class="row text-center justify-content-center">
-          <div class="col-md-6" data-aos="fade-right" data-aos-offset="300">
-            <div class="wrapper-foto position-relative">
-              <img
-                src="assets/img/foto-mockup.jpg"
-                class="rounded-circle img-fluid foto-pengantin"
-              />
-              <img
-                src="assets/img/mandala-jumbo-1.png"
-                class="img-fluid bg-pengantin"
-              />
+        <div class="row text-center">
+          <div class="col-6 pengantin-wrapper position-relative">
+            <div class="wrapper-foto">
+              <img src="assets/img/foto-mockup.jpg" class="rounded-circle img-fluid foto-pengantin" />
             </div>
             <div class="nama-pengantin d-flex flex-column align-items-center">
               <h2>Dodik</h2>
@@ -114,370 +48,12 @@
                 </p>
               </div>
             </div>
+            <img src="assets/img/mandala-jumbo-1.png" class="img-fluid bg-pengantin" />
           </div>
-          <div class="col-md-6" data-aos="fade-left" data-aos-offset="300">
-            <div class="wrapper-foto position-relative">
-              <img
-                src="assets/img/foto-mockup.jpg"
-                class="rounded-circle img-fluid foto-pengantin"
-              />
-              <img
-                src="assets/img/mandala-jumbo-1.png"
-                class="img-fluid bg-pengantin"
-              />
-            </div>
-            <div class="nama-pengantin d-flex flex-column align-items-center">
-              <h2>Trisna</h2>
-              <h3>Ni Made Ayu Dwi Trisna Anggraeni</h3>
-              <div class="deskripsi-box text-center">
-                <p>
-                  Putra dari pasangan Bapak I Ketut Saban <br />&<br />
-                  Ibu Ni Luh Gede Ari Utami
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <img src="assets/img/divider-2.png" class="second-divider" />
-    </section>
-    <section id="hari-bahagia">
-      <div class="container" data-aos="fade-up">
-        <div class="heading-title text-center">
-          <img src="assets/img/decoration-top.svg" class="img-fluid" />
-          <h3>HARI BAHAGIA</h3>
-        </div>
-        <div class="row waktu justify-content-center">
-          <div class="col-lg-2 col-3">
-            <div class="waktu-wrapper text-center">
-              <h2 class="angka-waktu hari">00</h2>
-              <p class="ket-waktu">HARI</p>
-            </div>
-          </div>
-          <div class="col-lg-2 col-3">
-            <div class="waktu-wrapper text-center">
-              <h2 class="angka-waktu jam">00</h2>
-              <p class="ket-waktu">JAM</p>
-            </div>
-          </div>
-          <div class="col-lg-2 col-3">
-            <div class="waktu-wrapper text-center">
-              <h2 class="angka-waktu menit">00</h2>
-              <p class="ket-waktu">MENIT</p>
-            </div>
-          </div>
-          <div class="col-lg-2 col-3">
-            <div class="waktu-wrapper text-center">
-              <h2 class="angka-waktu detik">00</h2>
-              <p class="ket-waktu">DETIK</p>
-            </div>
-          </div>
-        </div>
-        <img
-          src="assets/img/dekorasi-waktu.svg"
-          class="text-center img-fluid dekorasi-waktu"
-        />
-      </div>
-    </section>
-    <section id="location">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-md-6 detail-lokasi">
-            <div class="container mt-3" data-aos="fade-right">
-              <div class="heading-title text-center">
-                <img src="assets/img/decoration-top.svg" class="img-fluid" />
-                <h3>PAWIWAHAN</h3>
-              </div>
-              <div
-                class="row text-white text-center justify-content-center align-items-center flex-column pb-4"
-              >
-                <div class="col-sm-7">
-                  <p class="deskripsi-lokasi">
-                    <i data-feather="calendar" class="me-1"></i>Hari/Tanggal
-                    :<br />
-                    <span class="fw-bold"
-                      >Senin, 8 Agustus 2022 <br />
-                      08.00 WITA - Selesai</span
-                    >
-                  </p>
-                </div>
-                <div class="col-sm-7">
-                  <p class="deskripsi-lokasi">
-                    <i data-feather="map-pin"></i> Lokasi Upacara :<br />
-                    <span class="fw-bold"
-                      >Br. Saba, Desa Saba, Kec. Blahbatuh
-                      <br />
-                      Gianyar - Bali
-                    </span>
-                  </p>
-                  <a
-                    href="https://www.google.com/maps?ll=-8.604764,115.309997&z=16&t=m&hl=id&gl=ID&mapclient=embed&q=Jl.+Banjar+Saba+Saba+Kec.+Blahbatuh+Kabupaten+Gianyar,+Bali+80581"
-                    class="btn btn-primary rounded-pill fw-bold"
-                    target="_blank"
-                    >MAP LOKASI</a
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 g-0" data-aos="fade-left">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3944.9087588308766!2d115.30780791348162!3d-8.604758589770302!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd2150af6d7d0bf%3A0x1c1160013241965b!2sJl.%20Banjar%20Saba%2C%20Saba%2C%20Kec.%20Blahbatuh%2C%20Kabupaten%20Gianyar%2C%20Bali%2080581!5e0!3m2!1sid!2sid!4v1658239316703!5m2!1sid!2sid"
-              width="100%"
-              style="border: 0"
-              allowfullscreen=""
-              loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
-              class="maps"
-            ></iframe>
-          </div>
+          <div class="col-6"></div>
         </div>
       </div>
     </section>
-    <section id="foto-nikah" class="position-relative pb-5">
-      <img src="assets/img/divider-1.png" class="first-divider" />
-      <div class="container pt-5 pb-5">
-        <div class="d-flex justify-content-center" data-aos="fade-down">
-          <img
-            src="assets/img/decoration-foto.svg"
-            class="decor-foto-nikah img-fluid"
-          />
-        </div>
-        <h3 class="heading-foto" data-aos="fade-down">MOMENT BAHAGIA</h3>
-        <div class="row mt-3 justify-content-center">
-          <div class="col-md-3 col-sm-4 col-8 g-2" data-aos="fade-left">
-            <a
-              href="https://lipsum.app/id/1/1024x768"
-              data-fancybox="gallery"
-              data-caption="Optional caption"
-            >
-              <img
-                src="assets/img/foto-mockup.jpg"
-                class="aspect-ratio-1 img-fluid"
-                width="100%"
-              />
-            </a>
-          </div>
-          <div class="col-md-3 col-sm-4 col-8 g-2" data-aos="fade-right">
-            <a
-              href="https://lipsum.app/id/1/1024x768"
-              data-fancybox="gallery"
-              data-caption="Optional caption"
-            >
-              <img
-                src="assets/img/foto-mockup.jpg"
-                class="aspect-ratio-1 img-fluid"
-                width="100%"
-              />
-            </a>
-          </div>
-          <div class="col-md-3 col-sm-4 col-8 g-2" data-aos="fade-left">
-            <a
-              href="https://lipsum.app/id/1/1024x768"
-              data-fancybox="gallery"
-              data-caption="Optional caption"
-            >
-              <img
-                src="assets/img/foto-mockup.jpg"
-                class="aspect-ratio-1 img-fluid"
-                width="100%"
-              />
-            </a>
-          </div>
-          <div class="col-md-3 col-sm-4 col-8 g-2" data-aos="fade-right">
-            <a
-              href="https://lipsum.app/id/1/1024x768"
-              data-fancybox="gallery"
-              data-caption="Optional caption"
-            >
-              <img
-                src="assets/img/foto-mockup.jpg"
-                class="aspect-ratio-1 img-fluid"
-                width="100%"
-              />
-            </a>
-          </div>
-          <div class="col-md-3 col-sm-4 col-8 g-2" data-aos="fade-left">
-            <a
-              href="https://lipsum.app/id/1/1024x768"
-              data-fancybox="gallery"
-              data-caption="Optional caption"
-            >
-              <img
-                src="assets/img/foto-mockup.jpg"
-                class="aspect-ratio-1 img-fluid"
-                width="100%"
-              />
-            </a>
-          </div>
-          <div class="col-md-3 col-sm-4 col-8 g-2" data-aos="fade-right">
-            <a
-              href="https://lipsum.app/id/1/1024x768"
-              data-fancybox="gallery"
-              data-caption="Optional caption"
-            >
-              <img
-                src="assets/img/foto-mockup.jpg"
-                class="aspect-ratio-1 img-fluid"
-                width="100%"
-              />
-            </a>
-          </div>
-          <div class="col-md-3 col-sm-4 col-8 g-2" data-aos="fade-left">
-            <a
-              href="https://lipsum.app/id/1/1024x768"
-              data-fancybox="gallery"
-              data-caption="Optional caption"
-            >
-              <img
-                src="assets/img/foto-mockup.jpg"
-                class="aspect-ratio-1 img-fluid"
-                width="100%"
-              />
-            </a>
-          </div>
-          <div class="col-md-3 col-sm-4 col-8 g-2" data-aos="fade-right">
-            <a
-              href="https://lipsum.app/id/1/1024x768"
-              data-fancybox="gallery"
-              data-caption="Optional caption"
-            >
-              <img
-                src="assets/img/foto-mockup.jpg"
-                class="aspect-ratio-1 img-fluid"
-                width="100%"
-              />
-            </a>
-          </div>
-          <div class="d-flex justify-content-center" data-aos="fade-up">
-            <img
-              src="assets/img/decoration-foto.svg"
-              class="decor-foto-nikah rotate-180 mt-4 img-fluid"
-            />
-          </div>
-        </div>
-      </div>
-      <img src="assets/img/divider-2.png" class="second-divider" />
-    </section>
-    <section id="protokol-kesehatan">
-      <div class="container" data-aos="fade-up">
-        <div class="heading-title text-center">
-          <img src="assets/img/decoration-top.svg" class="img-fluid" />
-          <h3>PROTOKOL KESEHATAN</h3>
-        </div>
-        <div class="row justify-content-center">
-          <div class="col-md-8 col-11">
-            <p class="text-center">
-              Tanpa mengurangi rasa hormat, dikarenakan situasi yang sedang
-              terjadi ditengah Pandemi Covid-19 ini kami memohon maaf karena
-              acara akan diselenggarakan sesuai peraturan dan himbauan
-              pemerintah.
-            </p>
-          </div>
-          <div class="protocol-instruction">
-            <img src="assets/img/protokol-kesehatan.svg" class="img-fluid" />
-          </div>
-        </div>
-        <img
-          src="assets/img/dekorasi-waktu.svg"
-          class="text-center img-fluid dekorasi-waktu mt-3"
-        />
-      </div>
-    </section>
-    <section id="pesan" class="position-relative pb-3">
-      <img src="assets/img/divider-1.png" class="first-divider" />
-      <div class="heading-title text-center" data-aos="fade-left">
-        <img src="assets/img/decoration-top.svg" class="img-fluid" />
-        <h3>PESAN & HARAPAN</h3>
-      </div>
-      <div class="container" data-aos="fade-left">
-        <div class="row justify-content-center mt-4">
-          <div class="col-md-6 col-sm-9">
-            <div
-              class="alert alert-warning alert-dismissible fade show rounded-pill d-none"
-              role="alert"
-            >
-              <strong>Pesan anda telah berhasil terkirim!</strong>
-              <button
-                type="button"
-                class="btn-close"
-                data-bs-dismiss="alert"
-                aria-label="Close"
-              ></button>
-            </div>
-            <form name="titip-pesan">
-              <div class="mb-3">
-                <label class="form-label text-white fw-bold">Nama</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  placeholder="Nama anda"
-                  name="nama"
-                />
-              </div>
-              <div class="mb-3">
-                <label class="form-label text-white fw-bold">Pesan</label>
-                <textarea
-                  class="form-control"
-                  rows="3"
-                  placeholder="Tulis pesan anda disini..."
-                  name="pesan"
-                ></textarea>
-              </div>
-              <button
-                type="submit"
-                class="btn btn-primary rounded-pill fw-bold btn-kirim"
-              >
-                KIRIM PESAN
-              </button>
-              <button
-                class="btn btn-primary rounded-pill fw-bold btn-loading d-none"
-                type="button"
-                disabled
-              >
-                <span
-                  class="spinner-border spinner-border-sm"
-                  role="status"
-                  aria-hidden="true"
-                ></span>
-                Loading...
-              </button>
-            </form>
-          </div>
-        </div>
-        <div class="garis"></div>
-        <div class="container box-message">
-          <div
-            class="row justify-content-center align-items-center"
-            id="message-box"
-          ></div>
-        </div>
-      </div>
-    </section>
-    <footer class="d-flex justify-content-center align-items-center">
-      <p class="fw-bolder text-black">
-        Created with <i data-feather="heart"></i> by Semat Bali
-      </p>
-    </footer>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-      crossorigin="anonymous"
-    ></script>
-    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
-    <script src="https://unpkg.com/feather-icons"></script>
-    <script>
-      feather.replace();
-    </script>
-    <script src="openner.js"></script>
-    <script src="message.js"></script>
-    <script src="countdown.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-      AOS.init({
-        once: true,
-        duration: 800,
-      });
-    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
   </body>
 </html>
