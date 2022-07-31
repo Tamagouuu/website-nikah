@@ -44,7 +44,7 @@ body {
 #openner {
   height: 100vh;
   position: fixed;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.436) 0%, rgb(0, 0, 0) 100%), url(assets/img/foto-mockup-nikah.jpg);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.436) 0%, rgba(0, 0, 0, 0.822) 100%), url(assets/img/openner-img.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -79,12 +79,12 @@ body {
 #jumbotron .container-fluid {
   height: 100vh;
   /* background: linear-gradient(180deg, rgba(0, 0, 0, 0.436) 0%, rgb(0, 0, 0) 100%), url(assets/img/mockup-asset-jumbo.png); */
+  background-image: url(assets/img/jumbotron-pict.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   overflow: hidden;
-  animation: changeBackgroundImage 17s infinite;
 }
 
 #jumbotron .container-fluid::after {
@@ -126,7 +126,7 @@ body {
 
 #pengantin {
   background: radial-gradient(116.09% 189.76% at 50.01% 50.02%, #161621 0%, #000000 69.58%);
-  padding-bottom: 80px;
+  padding-bottom: 95px;
 }
 
 .first-divider {
@@ -202,7 +202,7 @@ body {
 }
 
 .deskripsi-box {
-  max-width: 210px;
+  max-width: 250px;
   color: white;
 }
 
@@ -429,6 +429,10 @@ footer p {
   filter: grayscale();
 }
 
+.logo-semat {
+  width: 300px !important;
+}
+
 @keyframes rotation-mandala {
   from {
     transform: rotate(0deg);
@@ -558,16 +562,10 @@ footer p {
   0% {
     background-image: url("https://picsum.photos/id/1015/1500/1000");
   }
-  25% {
+  50% {
     background-image: url("assets/img/mockup-asset-jumbo.png");
   }
-  50% {
-    background-image: url("https://picsum.photos/id/1016/1500/1000");
-  }
-  75% {
-    background-image: url("https://picsum.photos/id/1000/1500/1000");
-  }
   100% {
-    background-image: url("https://picsum.photos/id/1015/1500/1000");
+    background-image: url("https://picsum.photos/id/1016/1500/1000");
   }
 }
