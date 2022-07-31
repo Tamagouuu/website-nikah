@@ -183,6 +183,12 @@ body {
   left: 50%;
 }
 
+.middle-pengantin {
+  font-family: Afterglow regular;
+  color: var(--primary-gold);
+  font-size: 5rem;
+}
+
 .nama-pengantin {
   position: relative;
   margin-top: -45px;
